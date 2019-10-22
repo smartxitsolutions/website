@@ -12,5 +12,9 @@
 7. Database Training
 8. much more...at an effective cost.
 
+ Office Address: Karkarmatta, Near-Radix Hospital, DLW, Varanasi-221004
+ Contact Number: (+91) - 9044872055,  7355213016
+ Email ID: smartxitsolutions@gmail.com
+
 
 
