@@ -156,7 +156,7 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://github.com/smatxitsolutions" rel="noopener noreferrer" target="_blank"  className="icon fa-github">
+              <a href="https://github.com/smartxitsolutions" rel="noopener noreferrer" target="_blank"  className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
