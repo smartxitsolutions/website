@@ -1,19 +1,17 @@
-# gatsby-starter-dimension
+# SmartxItSolutions.com
 
-**This is a starter for Gatsby.js V2.**
+**We are professionals. We provide rapid solutions for your business, making you Ideas happens....!**
 
-**The older V1 version of this starter can be found on the v1 branch:**
+**Our Services:**
+1. Android and iOS Dvelopment
+2. Web Designing and Development
+3. ERP Solutions
+4. Logo Making
+5. Digital Marketing
+6. Core and Adv. Java Training
+7. Database Training
+8. much more...at an effective cost.
 
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-https://gatsby-dimension.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-dimension https://github.com/codebushi/gatsby-starter-dimension`
-
-Run `gatsby develop` in the terminal to start the dev site.
+ Office Address: Karkarmatta, Near-Radix Hospital, DLW, Varanasi-221004
+ Contact Number: (+91) - 9044872055,  7355213016
+ Email ID: smartxitsolutions@gmail.com
