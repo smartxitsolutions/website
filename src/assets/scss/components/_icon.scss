@@ -1,0 +1,19 @@
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
+	.icon-new {
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
