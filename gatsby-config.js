@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "SmartxItSolutions",
     author: "SmartxItSolutions.com",
-    description: "We are professionals. We provide rapid solutions for your business, making you Ideas happens....!"
+    description: "We are professionals. We provide rapid solutions for your business, making you Ideas happens....!",
+    siteUrl: 'https://smartxitsolutions.com/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -27,6 +28,17 @@ module.exports = {
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
       }
-    }
+    },
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ],
 }

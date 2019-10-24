@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import Image from './Image'
+
+
 
 //Import resources
-import pic01 from '../images/pic01.jpg'
-import pic05 from '../images/pic05.jpg'
-import android from '../images/android.png'
-import digital from '../images/digital.png'
-import logoDesign from '../images/logo-design.png'
-import erp from '../images/erp.png'
+/*import pic01 from 'images/pic01.jpg'
+import pic05 from 'images/pic05.jpg'
+import android from 'images/android.png'
+import digital from 'images/digital.png'
+import logoDesign from 'images/logo-design.png'
+import erp from 'images/erp.png'*/
 
 class Main extends React.Component {
   render() {
@@ -19,7 +22,6 @@ class Main extends React.Component {
         }}
       ></div>
     )
-
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -35,7 +37,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About Us</h2>
           <span className="image main">
-            <img src={pic01} alt="Overview" />
+            <Image filename="pic01.jpg" alt="Overview"/>
           </span>
           <p>
             SmartxIT<b>Solutions</b> is one of the best company that offers 
@@ -61,12 +63,12 @@ class Main extends React.Component {
         >
           <h2 className="major">Services</h2>
           <span className="image main">
-            <img src={pic05} alt="Services" />
+            <Image filename="pic05.jpg" alt="Services"/>
           </span>
           <div className="container mx-auto px-4 py-2 bg-white rounded text-gray-700">
             <section className="grid m">
               <div className="col col-3 col-align-top">
-                <img className="image w-full m-0" src={android} alt=""/>
+                <Image className="image w-full m-0" filename="android.png" alt="Android"/>
               </div>
               <div className="content col col-9 col-align-middle">
                 <h3 className="text-gray-700">Mobile Apps Development</h3>
@@ -83,13 +85,13 @@ class Main extends React.Component {
                 <p>Our expertise team also provide website training &amp; development course including practical sessions as well as real-world projects.</p>
               </div>
               <div className="col col-3 col-align-top">
-                <img className="image w-full m-0" src={digital} alt=""/>
+                <Image className="image w-full m-0" filename="digital.png" alt="Web Design and Developemnt"/>
               </div>
             </section>
             <hr className="my-2 border-gray-500"/>
             <section className="grid m">
               <div className="col col-3 col-align-top">
-                <img className="image w-full m-0" src={erp} alt=""/>
+                <Image className="image w-full m-0" filename="erp.png" alt="ERP Solutions"/>
               </div>
               <div className="content col col-9 col-align-middle">
                 <h3 className="text-gray-700">ERP Solutions</h3>
@@ -105,14 +107,12 @@ class Main extends React.Component {
                 <p>Feel free to contact us at <a className="font-extrabold" href="mailto:smartxitsolutions@gmail.com">SmartxITSolutions[at]gmail.com</a> for more info.</p>
               </div>
               <div className="col col-3 col-align-top">
-                <img className="image w-full m-0" src={logoDesign} alt=""/>
+                <Image className="image w-full m-0" filename="logo-design.png" alt="Logo Making"/>
               </div>
             </section>
           </div>
           {close}
         </article>
-
-        
 
         <article
           id="contact"
@@ -162,7 +162,7 @@ class Main extends React.Component {
             </li>
           </ul>
           <ul className="list-none p-0">
-            <li><b><i class="fas fa-map-signs"></i> Office Address:</b> Karkarmatta, Near-Radix Hospital, DLW, Varanasi-221004</li>
+            <li><b><i class="fas fa-map-signs"></i> Office Address:</b> Kakarmatta, Near-Radix Hospital, DLW, Varanasi-221004</li>
             <li><b><i class="fas fa-phone"></i> Contact Number:</b> (+91) - 9044872055, <i class="fab fa-whatsapp-square"></i> 7355213016</li>
             <li><b><i class="fas fa-at"></i> Email ID:</b> <a href="mailto:smartxitsolutions@gmail.com">smartxitsolutions@gmail.com</a> </li>
           </ul>
