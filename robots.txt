@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://smartxitsolutions.com/sitemap.xml
+Host: https://smartxitsolutions.com
